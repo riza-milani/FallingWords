@@ -7,6 +7,7 @@ class WordWidget: UIView {
         label.translatesAutoresizingMaskIntoConstraints = false
         label.textAlignment = .center
         label.font = label.font.withSize(20)
+        label.textColor = .blue
         return label
     }()
 

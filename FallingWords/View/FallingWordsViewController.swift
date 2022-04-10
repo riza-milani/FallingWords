@@ -10,6 +10,7 @@ class FallingWordsViewController: UIViewController {
         let widgetWidth = 100.0
         widget.origin = CGPoint(x: (screenSize / 2.0) - (widgetWidth / 2.0), y: 100)
         widget.size = CGSize(width: widgetWidth, height: 100)
+        widget.backgroundColor = UIColor(named: "bottomWord")
         return widget
     }()
 
@@ -37,6 +38,7 @@ class FallingWordsViewController: UIViewController {
     
     private let scoreLabels: UILabel = {
        let label = UILabel()
+        label.textColor = .blue
         label.numberOfLines = 0
         label.textAlignment = .center
         label.translatesAutoresizingMaskIntoConstraints = false
