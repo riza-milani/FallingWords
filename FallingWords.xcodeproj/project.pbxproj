@@ -36,6 +36,7 @@
 		74832622280343D5008DCF9D /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74832620280343D5008DCF9D /* Score.swift */; };
 		7483262428034450008DCF9D /* FallingWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483262328034450008DCF9D /* FallingWordsViewModel.swift */; };
 		7483262528034450008DCF9D /* FallingWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483262328034450008DCF9D /* FallingWordsViewModel.swift */; };
+		74832628280347E7008DCF9D /* FallingWordViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74832626280347E7008DCF9D /* FallingWordViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		7483261D280343B5008DCF9D /* FallingWordsViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordsViewModelProtocol.swift; sourceTree = "<group>"; };
 		74832620280343D5008DCF9D /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 		7483262328034450008DCF9D /* FallingWordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordsViewModel.swift; sourceTree = "<group>"; };
+		74832626280347E7008DCF9D /* FallingWordViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			children = (
 				748325E728033E7E008DCF9D /* FallingWordsTests.swift */,
 				7483260B2803403D008DCF9D /* FallingWordRepositoryTests.swift */,
+				74832626280347E7008DCF9D /* FallingWordViewModelTests.swift */,
 			);
 			path = FallingWordsTests;
 			sourceTree = "<group>";
@@ -364,6 +367,7 @@
 				7483260328033FAB008DCF9D /* WordRepository.swift in Sources */,
 				7483260728033FE3008DCF9D /* Word.swift in Sources */,
 				74832622280343D5008DCF9D /* Score.swift in Sources */,
+				74832628280347E7008DCF9D /* FallingWordViewModelTests.swift in Sources */,
 				7483260A28034005008DCF9D /* WordRepositoryLocal.swift in Sources */,
 				7483261C280342FA008DCF9D /* AnswerType.swift in Sources */,
 				74832619280342BE008DCF9D /* AnswerWidget.swift in Sources */,
