@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		748325D128033E7B008DCF9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748325D028033E7B008DCF9D /* AppDelegate.swift */; };
 		748325D328033E7B008DCF9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748325D228033E7B008DCF9D /* SceneDelegate.swift */; };
-		748325D528033E7B008DCF9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748325D428033E7B008DCF9D /* ViewController.swift */; };
+		748325D528033E7B008DCF9D /* FallingWordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748325D428033E7B008DCF9D /* FallingWordsViewController.swift */; };
 		748325DA28033E7D008DCF9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 748325D928033E7D008DCF9D /* Assets.xcassets */; };
 		748325DD28033E7D008DCF9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 748325DB28033E7D008DCF9D /* LaunchScreen.storyboard */; };
 		748325E828033E7E008DCF9D /* FallingWordsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748325E728033E7E008DCF9D /* FallingWordsTests.swift */; };
@@ -24,6 +24,12 @@
 		7483260D2803403D008DCF9D /* FallingWordRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483260B2803403D008DCF9D /* FallingWordRepositoryTests.swift */; };
 		7483260F28034172008DCF9D /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 7483260E28034172008DCF9D /* words.json */; };
 		7483261028034172008DCF9D /* words.json in Resources */ = {isa = PBXBuildFile; fileRef = 7483260E28034172008DCF9D /* words.json */; };
+		748326152803429A008DCF9D /* WordWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748326142803429A008DCF9D /* WordWidget.swift */; };
+		748326162803429A008DCF9D /* WordWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748326142803429A008DCF9D /* WordWidget.swift */; };
+		74832618280342BE008DCF9D /* AnswerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74832617280342BE008DCF9D /* AnswerWidget.swift */; };
+		74832619280342BE008DCF9D /* AnswerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74832617280342BE008DCF9D /* AnswerWidget.swift */; };
+		7483261B280342FA008DCF9D /* AnswerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483261A280342FA008DCF9D /* AnswerType.swift */; };
+		7483261C280342FA008DCF9D /* AnswerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483261A280342FA008DCF9D /* AnswerType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +53,7 @@
 		748325CD28033E7B008DCF9D /* FallingWords.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FallingWords.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		748325D028033E7B008DCF9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		748325D228033E7B008DCF9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		748325D428033E7B008DCF9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		748325D428033E7B008DCF9D /* FallingWordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordsViewController.swift; sourceTree = "<group>"; };
 		748325D928033E7D008DCF9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		748325DC28033E7D008DCF9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		748325DE28033E7D008DCF9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 		7483260828034005008DCF9D /* WordRepositoryLocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordRepositoryLocal.swift; sourceTree = "<group>"; };
 		7483260B2803403D008DCF9D /* FallingWordRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordRepositoryTests.swift; sourceTree = "<group>"; };
 		7483260E28034172008DCF9D /* words.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = words.json; sourceTree = "<group>"; };
+		748326142803429A008DCF9D /* WordWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordWidget.swift; sourceTree = "<group>"; };
+		74832617280342BE008DCF9D /* AnswerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerWidget.swift; sourceTree = "<group>"; };
+		7483261A280342FA008DCF9D /* AnswerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,11 +120,12 @@
 		748325CF28033E7B008DCF9D /* FallingWords */ = {
 			isa = PBXGroup;
 			children = (
+				7483261228034219008DCF9D /* ViewModel */,
+				7483261128034213008DCF9D /* View */,
 				7483260428033FCB008DCF9D /* Model */,
 				7483260028033F92008DCF9D /* Repository */,
 				748325D028033E7B008DCF9D /* AppDelegate.swift */,
 				748325D228033E7B008DCF9D /* SceneDelegate.swift */,
-				748325D428033E7B008DCF9D /* ViewController.swift */,
 				7483260E28034172008DCF9D /* words.json */,
 				748325D928033E7D008DCF9D /* Assets.xcassets */,
 				748325DB28033E7D008DCF9D /* LaunchScreen.storyboard */,
@@ -155,8 +165,34 @@
 			isa = PBXGroup;
 			children = (
 				7483260528033FE3008DCF9D /* Word.swift */,
+				7483261A280342FA008DCF9D /* AnswerType.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		7483261128034213008DCF9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7483261328034283008DCF9D /* Components */,
+				748325D428033E7B008DCF9D /* FallingWordsViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7483261228034219008DCF9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7483261328034283008DCF9D /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				748326142803429A008DCF9D /* WordWidget.swift */,
+				74832617280342BE008DCF9D /* AnswerWidget.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,11 +327,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				748325D528033E7B008DCF9D /* ViewController.swift in Sources */,
+				748325D528033E7B008DCF9D /* FallingWordsViewController.swift in Sources */,
+				74832618280342BE008DCF9D /* AnswerWidget.swift in Sources */,
 				7483260928034005008DCF9D /* WordRepositoryLocal.swift in Sources */,
 				748325D128033E7B008DCF9D /* AppDelegate.swift in Sources */,
+				748326152803429A008DCF9D /* WordWidget.swift in Sources */,
 				7483260628033FE3008DCF9D /* Word.swift in Sources */,
 				748325D328033E7B008DCF9D /* SceneDelegate.swift in Sources */,
+				7483261B280342FA008DCF9D /* AnswerType.swift in Sources */,
 				7483260228033FAB008DCF9D /* WordRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,6 +348,9 @@
 				7483260328033FAB008DCF9D /* WordRepository.swift in Sources */,
 				7483260728033FE3008DCF9D /* Word.swift in Sources */,
 				7483260A28034005008DCF9D /* WordRepositoryLocal.swift in Sources */,
+				7483261C280342FA008DCF9D /* AnswerType.swift in Sources */,
+				74832619280342BE008DCF9D /* AnswerWidget.swift in Sources */,
+				748326162803429A008DCF9D /* WordWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,6 +515,7 @@
 				INFOPLIST_FILE = FallingWords/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -499,6 +542,7 @@
 				INFOPLIST_FILE = FallingWords/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
