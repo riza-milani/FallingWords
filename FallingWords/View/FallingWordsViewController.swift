@@ -145,10 +145,10 @@ extension FallingWordsViewController {
     func showReplay() {
         hideGameWidgets()
         showPlayWidgets()
-        resetPlaterSelection()
+        resetPlayerSelection()
     }
 
-    func resetPlaterSelection() {
+    func resetPlayerSelection() {
         answerButtonCorrect.isWidgetSelected = false
         answerButtonIncorrect.isWidgetSelected = false
         viewModel?.playerAnswer = .none
@@ -176,7 +176,7 @@ extension FallingWordsViewController {
                 return
             }
             self.viewModel?.checkAnswer()
-            self.resetPlaterSelection()
+            self.resetPlayerSelection()
             let screenSize = UIScreen.main.bounds.width
             let widgetWidth = 100.0
             self.wordWidgetOne.origin = CGPoint(x: (screenSize / 2.0) - (widgetWidth / 2.0), y: 100)
