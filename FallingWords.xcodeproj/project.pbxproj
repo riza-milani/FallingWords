@@ -30,6 +30,10 @@
 		74832619280342BE008DCF9D /* AnswerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74832617280342BE008DCF9D /* AnswerWidget.swift */; };
 		7483261B280342FA008DCF9D /* AnswerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483261A280342FA008DCF9D /* AnswerType.swift */; };
 		7483261C280342FA008DCF9D /* AnswerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483261A280342FA008DCF9D /* AnswerType.swift */; };
+		7483261E280343B5008DCF9D /* FallingWordsViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483261D280343B5008DCF9D /* FallingWordsViewModelProtocol.swift */; };
+		7483261F280343B5008DCF9D /* FallingWordsViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483261D280343B5008DCF9D /* FallingWordsViewModelProtocol.swift */; };
+		74832621280343D5008DCF9D /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74832620280343D5008DCF9D /* Score.swift */; };
+		74832622280343D5008DCF9D /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74832620280343D5008DCF9D /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +74,8 @@
 		748326142803429A008DCF9D /* WordWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordWidget.swift; sourceTree = "<group>"; };
 		74832617280342BE008DCF9D /* AnswerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerWidget.swift; sourceTree = "<group>"; };
 		7483261A280342FA008DCF9D /* AnswerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerType.swift; sourceTree = "<group>"; };
+		7483261D280343B5008DCF9D /* FallingWordsViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordsViewModelProtocol.swift; sourceTree = "<group>"; };
+		74832620280343D5008DCF9D /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +172,7 @@
 			children = (
 				7483260528033FE3008DCF9D /* Word.swift */,
 				7483261A280342FA008DCF9D /* AnswerType.swift */,
+				74832620280343D5008DCF9D /* Score.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -182,6 +189,7 @@
 		7483261228034219008DCF9D /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				7483261D280343B5008DCF9D /* FallingWordsViewModelProtocol.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -335,6 +343,8 @@
 				7483260628033FE3008DCF9D /* Word.swift in Sources */,
 				748325D328033E7B008DCF9D /* SceneDelegate.swift in Sources */,
 				7483261B280342FA008DCF9D /* AnswerType.swift in Sources */,
+				7483261E280343B5008DCF9D /* FallingWordsViewModelProtocol.swift in Sources */,
+				74832621280343D5008DCF9D /* Score.swift in Sources */,
 				7483260228033FAB008DCF9D /* WordRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,10 +357,12 @@
 				748325E828033E7E008DCF9D /* FallingWordsTests.swift in Sources */,
 				7483260328033FAB008DCF9D /* WordRepository.swift in Sources */,
 				7483260728033FE3008DCF9D /* Word.swift in Sources */,
+				74832622280343D5008DCF9D /* Score.swift in Sources */,
 				7483260A28034005008DCF9D /* WordRepositoryLocal.swift in Sources */,
 				7483261C280342FA008DCF9D /* AnswerType.swift in Sources */,
 				74832619280342BE008DCF9D /* AnswerWidget.swift in Sources */,
 				748326162803429A008DCF9D /* WordWidget.swift in Sources */,
+				7483261F280343B5008DCF9D /* FallingWordsViewModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
