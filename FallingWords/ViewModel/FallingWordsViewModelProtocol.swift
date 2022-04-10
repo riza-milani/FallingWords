@@ -2,6 +2,7 @@ import Foundation
 
 protocol FallingWordsViewModelProtocol {
     var playerAnswer: AnswerType { get set }
+    var viewInput: ViewInput? { get set }
     var shouldGenerate: Bool { get }
     func loadWords()
     func generateRandomWords(completion: @escaping ((String, String)) -> Void)

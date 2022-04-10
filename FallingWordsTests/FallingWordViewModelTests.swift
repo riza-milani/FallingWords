@@ -9,10 +9,18 @@ let mockWords = [
 class FallingWordViewModelTests: XCTestCase {
 
     var viewModel: FallingWordsViewModelProtocol?
-    
+
+    class MockViewInput: ViewInput {
+        var testChecked = false
+
+        func showScore(score: Score) {
+            testChecked = true
+        }
+    }
 
     override func setUpWithError() throws {
         viewModel = FallingWordsViewModel(wordRepository: WordRepositoryMock())
+        viewModel?.viewInput = MockViewInput()
     }
 
     override func tearDownWithError() throws {
@@ -37,6 +45,18 @@ class FallingWordViewModelTests: XCTestCase {
         wait(for: [expectation], timeout: 5)
     }
 
+    func testViewModelPlayerAnswer() throws {
+        let expectation = expectation(description: "load and generate")
+        viewModel?.loadWords()
+        viewModel?.generateRandomWords(completion: { (_, _) in
+            expectation.fulfill()
+        })
+        viewModel?.playerAnswer = .correct
+        viewModel?.checkAnswer()
+        viewModel?.showScores()
+        XCTAssert((viewModel?.viewInput as? MockViewInput)?.testChecked ?? false)
+        wait(for: [expectation], timeout: 5)
+    }
 }
 
 class WordRepositoryMock: WordRepository {
