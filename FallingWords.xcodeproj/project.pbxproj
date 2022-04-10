@@ -34,6 +34,8 @@
 		7483261F280343B5008DCF9D /* FallingWordsViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483261D280343B5008DCF9D /* FallingWordsViewModelProtocol.swift */; };
 		74832621280343D5008DCF9D /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74832620280343D5008DCF9D /* Score.swift */; };
 		74832622280343D5008DCF9D /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74832620280343D5008DCF9D /* Score.swift */; };
+		7483262428034450008DCF9D /* FallingWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483262328034450008DCF9D /* FallingWordsViewModel.swift */; };
+		7483262528034450008DCF9D /* FallingWordsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483262328034450008DCF9D /* FallingWordsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,7 @@
 		7483261A280342FA008DCF9D /* AnswerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerType.swift; sourceTree = "<group>"; };
 		7483261D280343B5008DCF9D /* FallingWordsViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordsViewModelProtocol.swift; sourceTree = "<group>"; };
 		74832620280343D5008DCF9D /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		7483262328034450008DCF9D /* FallingWordsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingWordsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,12 +129,12 @@
 		748325CF28033E7B008DCF9D /* FallingWords */ = {
 			isa = PBXGroup;
 			children = (
+				7483260028033F92008DCF9D /* Repository */,
+				7483260428033FCB008DCF9D /* Model */,
 				7483261228034219008DCF9D /* ViewModel */,
 				7483261128034213008DCF9D /* View */,
-				7483260428033FCB008DCF9D /* Model */,
-				7483260028033F92008DCF9D /* Repository */,
-				748325D028033E7B008DCF9D /* AppDelegate.swift */,
 				748325D228033E7B008DCF9D /* SceneDelegate.swift */,
+				748325D028033E7B008DCF9D /* AppDelegate.swift */,
 				7483260E28034172008DCF9D /* words.json */,
 				748325D928033E7D008DCF9D /* Assets.xcassets */,
 				748325DB28033E7D008DCF9D /* LaunchScreen.storyboard */,
@@ -190,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				7483261D280343B5008DCF9D /* FallingWordsViewModelProtocol.swift */,
+				7483262328034450008DCF9D /* FallingWordsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -337,6 +341,7 @@
 			files = (
 				748325D528033E7B008DCF9D /* FallingWordsViewController.swift in Sources */,
 				74832618280342BE008DCF9D /* AnswerWidget.swift in Sources */,
+				7483262428034450008DCF9D /* FallingWordsViewModel.swift in Sources */,
 				7483260928034005008DCF9D /* WordRepositoryLocal.swift in Sources */,
 				748325D128033E7B008DCF9D /* AppDelegate.swift in Sources */,
 				748326152803429A008DCF9D /* WordWidget.swift in Sources */,
@@ -355,6 +360,7 @@
 			files = (
 				7483260D2803403D008DCF9D /* FallingWordRepositoryTests.swift in Sources */,
 				748325E828033E7E008DCF9D /* FallingWordsTests.swift in Sources */,
+				7483262528034450008DCF9D /* FallingWordsViewModel.swift in Sources */,
 				7483260328033FAB008DCF9D /* WordRepository.swift in Sources */,
 				7483260728033FE3008DCF9D /* Word.swift in Sources */,
 				74832622280343D5008DCF9D /* Score.swift in Sources */,
