@@ -1,10 +1,3 @@
-//
-//  FallingWordsUITests.swift
-//  FallingWordsUITests
-//
-//  Created by riza milani on 10.04.22.
-//
-
 import XCTest
 
 class FallingWordsUITests: XCTestCase {

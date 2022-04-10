@@ -1,10 +1,3 @@
-//
-//  FallingWordsTests.swift
-//  FallingWordsTests
-//
-//  Created by riza milani on 10.04.22.
-//
-
 import XCTest
 @testable import FallingWords
 
